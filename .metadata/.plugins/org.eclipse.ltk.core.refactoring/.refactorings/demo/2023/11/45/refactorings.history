@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.example.demo.service.ClassA&apos; to &apos;A&apos;&#x0D;&#x0A;- Original project: &apos;demo&apos;&#x0D;&#x0A;- Original element: &apos;com.example.demo.service.ClassA&apos;&#x0D;&#x0A;- Renamed element: &apos;com.example.demo.service.A&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ClassA&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.example.demo.service{ClassA.java[ClassA" matchStrategy="1" name="A" qualified="false" references="true" similarDeclarations="false" stamp="1699595597871" textual="false" version="1.0"/>
+</session>

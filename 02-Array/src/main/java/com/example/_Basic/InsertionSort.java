@@ -1,0 +1,29 @@
+package com.example._Basic;
+
+public class InsertionSort {
+
+	public static void insertionSort(int[] arr) {
+		for (int i = 1; i < arr.length; i++) {
+			for (int j = i; j > 0; j--) {
+				if (arr[j] < arr[j - 1]) {
+					int temp = arr[j];
+					arr[j] = arr[j - 1];
+					arr[j - 1] = temp;
+				} else {
+					break;
+				}
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+
+		int[] numbers = { 5, 7, 9, 25, 30, 2, 45, 3, 1 };
+		insertionSort(numbers);
+		for (int num : numbers) {
+			System.out.println(num);
+		}
+
+	}
+
+}
